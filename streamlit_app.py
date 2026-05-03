@@ -189,10 +189,10 @@ if not st.session_state.messages:
     st.markdown("**Try saying:**")
     col1, col2 = st.columns(2)
     starters = [
-        ("😮‍💨 Bro I'm cooked", "Bro I'm cooked"),
-        ("🌀 My mind is too much", "Bro my mind is doing too much right now"),
-        ("😤 I feel anxious", "I feel anxious"),
-        ("🥱 I can't focus", "I can't focus on anything bro"),
+        ("🤙 yo rocky", "yo rocky"),
+        ("🌊 just vibing", "just vibing"),
+        ("🪩 make me laugh", "make me laugh"),
+        ("🍕 had a long one", "had a long one"),
     ]
     for i, (label, prompt) in enumerate(starters):
         col = col1 if i % 2 == 0 else col2
